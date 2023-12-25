@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #212227;
+  --secondary-color: #ffa500;
+  --text-primary-color: white;
+  --text-secondary-color: #636974;
+  --text-primary-font: "Turret Road", sans-serif;
+}
+* {
+  font-family: var(--text-primary-font);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 24px;
+  background-color: var(--primary-color);
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+nav ul {
+  display: flex;
+  column-gap: 100px;
+  list-style: none;
+  padding-right: 50px;
+}
+nav button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text-primary-color);
+}
+nav img {
+  width: 50px;
+  height: 50px;
+}
+
+.search_cont {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  
+}
+.search_cont input {
+    background: transparent;
+    border-color: var(--secondary-color);
+    width: 10.3rem;
+    height: 2.5rem;
+    padding-left: 10px;
+    color: var(--text-primary-color);
+    border-radius: 5px;
+}
+.search_cont button{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    padding:0 5px 0 5px;
+}
+
+.main{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+.main_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.2);
+    border-radius: 1em;
+    color: var(--text-primary-color);
+    height: 450px;
+    width: 260px;
+    row-gap: 20px;
+  transition: all 0.5s;
+
+}
+
+.main_cont:hover{
+  transform: scale(1.1);
+  
+}
+.main_cont img{
+    width: 150px;
+    height: 238px;
+    border-radius: 20px;
+}
+
+.main_cont h1{
+    font-size: 1em;
+}
+.main_cont h2{
+    font-size: 0.8em;
+}
+.main_cont button{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
