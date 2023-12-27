@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Navigation(){
     return <nav>
     <img
@@ -6,13 +8,15 @@ export function Navigation(){
     />
     <ul>
       <li>
-        <button>Home</button>
+        <button><Link to='/'>Home</Link></button>
       </li>
       <li>
-        <button>About</button>
+        
+        <button><Link to='/About'>About</Link></button>
       </li>
       <li>
-        <button>Contacts</button>
+        
+        <button><Link to='/Contacts'>Contacts</Link></button>
       </li>
     </ul>
   </nav>

@@ -5,6 +5,10 @@
   --text-secondary-color: #636974;
   --text-primary-font: "Turret Road", sans-serif;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 * {
   font-family: var(--text-primary-font);
   margin: 0;
@@ -85,6 +89,7 @@ nav img {
     width: 260px;
     row-gap: 20px;
   transition: all 0.5s;
+  text-align: center;
 
 }
 
