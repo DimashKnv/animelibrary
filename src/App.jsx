@@ -32,7 +32,6 @@ function App() {
         setArray(resp.data.data);
       });
   }
-
   return (
     <div>
       <Navigation></Navigation>

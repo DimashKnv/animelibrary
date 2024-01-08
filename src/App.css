@@ -5,7 +5,7 @@
   --text-secondary-color: #636974;
   --text-primary-font: "Turret Road", sans-serif;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -17,7 +17,6 @@ a{
 body {
   font-size: 24px;
   background-color: var(--primary-color);
-  
 }
 
 nav {
@@ -50,69 +49,121 @@ nav img {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-  
 }
 .search_cont input {
-    background: transparent;
-    border-color: var(--secondary-color);
-    width: 10.3rem;
-    height: 2.5rem;
-    padding-left: 10px;
-    color: var(--text-primary-color);
-    border-radius: 5px;
+  background: transparent;
+  border-color: var(--secondary-color);
+  width: 10.3rem;
+  height: 2.5rem;
+  padding-left: 10px;
+  color: var(--text-primary-color);
+  border-radius: 5px;
 }
-.search_cont button{
-    background-color: var(--secondary-color);
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    padding:0 5px 0 5px;
+.search_cont button {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 0 5px 0 5px;
 }
 
-.main{
-    display: flex;
-    column-gap: 50px;
-    justify-content: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    
+.main {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
-.main_cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 1em rgba(255, 255, 255, 0.2);
-    border-radius: 1em;
-    color: var(--text-primary-color);
-    height: 450px;
-    width: 260px;
-    row-gap: 20px;
+.main_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 1em rgba(255, 255, 255, 0.2);
+  border-radius: 1em;
+  color: var(--text-primary-color);
+  height: 450px;
+  width: 260px;
+  row-gap: 20px;
   transition: all 0.5s;
   text-align: center;
-
 }
 
-.main_cont:hover{
+.main_cont:hover {
   transform: scale(1.1);
-  
 }
-.main_cont img{
-    width: 150px;
-    height: 238px;
-    border-radius: 20px;
+.main_cont img {
+  width: 150px;
+  height: 238px;
+  border-radius: 20px;
 }
 
-.main_cont h1{
-    font-size: 1em;
+.main_cont h1 {
+  font-size: 1em;
 }
-.main_cont h2{
-    font-size: 0.8em;
+.main_cont h2 {
+  font-size: 0.8em;
 }
-.main_cont button{
-    background-color: var(--secondary-color);
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    font-weight: bold;
+.main_cont button {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+/* About */
+.about_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  color: white;
+}
+.about_cont {
+  display: flex;
+  column-gap: 100px;
+}
+.about_info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.icons_contact {
+  display: flex;
+  column-gap: 10px;
+}
+.icon_cont {
+  background-color: #636974;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_cont img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+/* Contacts */
+form{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+width: 20%;
+
+
+}
+form input{
+  border-radius: 20px;
+  background: transparent;
+  font-size: 20px;
+  color: #ffa500;
+}
+form input ::placeholder{
+  color: #ffa500;
 }
